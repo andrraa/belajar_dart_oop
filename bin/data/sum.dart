@@ -8,6 +8,9 @@ class Sum {
   int call() => first + second;
 }
 
+typedef Jumlah = Sum;
+typedef Total = Sum;
+
 void main(List<String> args) {
   var sum = Sum(1, 2);
   print(sum());
